@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 public class RolesBiz {
     @Autowired
     private RolesDao dao;
-
+    //sss
     public void save(Roles roles){
         dao.save(roles);
     }
